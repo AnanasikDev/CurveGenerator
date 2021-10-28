@@ -231,7 +231,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2048568767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da8f514a40db3b640940273e42c0616f, type: 3}
+  m_Script: {fileID: 11500000, guid: d2918395951964f41a9d502e6275e3f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   VisualizationCurve:
@@ -240,7 +240,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  TimeTick: 0.05
+  TimeTick: 0.08
 --- !u!114 &2048568769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,44 +250,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 2048568767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a13664cd08d85c42b87d90095f1652f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f14530b381d3f74fb70f8b4be157021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BaseGraph:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.0034484863
-      value: 0.009490967
-      inSlope: 0.15612419
-      outSlope: 0.15612419
+      time: 0
+      value: 0
+      inSlope: -0.096314386
+      outSlope: -0.096314386
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.18535735
+      outWeight: 0.19691867
     - serializedVersion: 3
-      time: 0.24556988
-      value: 0.9435026
-      inSlope: 1.2477882
-      outSlope: 1.2477882
+      time: 0.24779835
+      value: 0.81628466
+      inSlope: 1.1044775
+      outSlope: 1.1044775
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.98968506
-      value: 0.009490967
-      inSlope: -0.01757734
-      outSlope: -0.01757734
+      time: 1
+      value: 0
+      inSlope: -0.12548216
+      outSlope: -0.12548216
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.3359262
+      inWeight: 0.2987685
       outWeight: 0
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 4
   I: 0
-  Speed: 0.025
+  Speed: 0.02
+  Noise: 0.1
 --- !u!4 &2048568770
 Transform:
   m_ObjectHideFlags: 0

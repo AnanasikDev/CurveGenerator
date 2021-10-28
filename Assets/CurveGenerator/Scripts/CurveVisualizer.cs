@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
-public class GraphVisualizer : MonoBehaviour
+public class CurveVisualizer : MonoBehaviour
 {
     [SerializeField] private AnimationCurve VisualizationCurve = new AnimationCurve();
     [SerializeField] private float TimeTick = 0.04f;
     private void Start()
     {
-        InvokeRepeating("Visualize", TimeTick, TimeTick);
+        InvokeRepeating("Visualize", 1, TimeTick);
     }
     private void Visualize()
     {
-        float a = GraphGenerator.instance.MoveNext();
+        float a = CurveGenerator.instance.MoveNext();
 
-        VisualizationCurve.AddKey(GraphGenerator.instance.I, a);
+        VisualizationCurve.AddKey(CurveGenerator.instance.I, a);
     }
 }
